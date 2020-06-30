@@ -17,7 +17,6 @@ public class PenguinController : MonoBehaviour
         MoveX();
         
     }
-
     void MoveX()
     {
         Vector2 newVelocity = this.GetComponent

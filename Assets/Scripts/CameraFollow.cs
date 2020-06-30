@@ -9,8 +9,7 @@ public class CameraFollow : MonoBehaviour
 
     void Start()
     {
-        distanceToTarget = transform.position.x -
-        targetObject.transform.position.x;
+        distanceToTarget = transform.position.x - targetObject.transform.position.x;
     }
 
     
